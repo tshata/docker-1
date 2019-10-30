@@ -1,0 +1,3 @@
+docker ssh Char service logs -f $(docker service ps engineering-bay "name=engineering-bay.1" -q)
+
+#this script needs fixing
